@@ -199,9 +199,7 @@ export const JsonFormsDemo: FC = () => {
     >
       {/* Left Side - Form Data Display */}
       <Grid size={{ sm: 6 }}>
-        <Typography variant={"h4"} style={classes.title}>
-          Form Data
-        </Typography>
+        <Typography variant={"h4"}>Form Data</Typography>
 
         {/* Validation Status */}
         <Stack
@@ -332,9 +330,7 @@ export const JsonFormsDemo: FC = () => {
 
       {/* Right Side - Registration Form */}
       <Grid size={{ sm: 6 }}>
-        <Typography variant={"h4"} style={classes.title}>
-          Registration Form
-        </Typography>
+        <Typography variant={"h4"}>Registration Form</Typography>
 
         {/* Loading Indicator */}
         {(validating || isSubmitting) && <LinearProgress sx={{ mb: 2 }} />}

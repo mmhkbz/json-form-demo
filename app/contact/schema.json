@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "subject": {
+      "type": "string",
+      "title": "subject",
+      "minLength": 5,
+      "maxLength": 100
+    },
+    "name": {
+      "type": "string",
+      "title": "name",
+      "minLength": 3,
+      "maxLength": 20
+    },
+    "email": {
+      "type": "string",
+      "title": "email",
+      "format": "email",
+      "minLength": 5,
+      "maxLength": 50
+    },
+    "message": {
+      "type": "string",
+      "title": "message",
+      "minLength": 10,
+      "maxLength": 500
+    }
+  },
+  "required": ["subject", "name", "email", "message"]
+}

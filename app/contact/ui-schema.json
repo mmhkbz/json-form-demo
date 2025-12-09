@@ -1,0 +1,44 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "VerticalLayout",
+      "elements": [
+        {
+          "type": "Control",
+          "scope": "#/properties/name",
+          "label": "Name",
+          "options": {
+            "placeholder": "Enter your name"
+          }
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/subject",
+          "label": "Subject",
+          "options": {
+            "placeholder": "Enter your subject"
+          }
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/email",
+          "label": "Email",
+          "options": {
+            "placeholder": "Enter email address"
+          }
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/message",
+          "label": "Message",
+          "options": {
+            "multi": true,
+            "placeholder": "Enter your message",
+            "showUnfocusedDescription": true
+          }
+        }
+      ]
+    }
+  ]
+}
