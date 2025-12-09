@@ -9,6 +9,15 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@jsonforms/core": "3.7.0",
+    "@jsonforms/material-renderers": "3.7.0",
+    "@jsonforms/react": "3.7.0",
+    "@mui/icons-material": "^7.3.5",
+    "@mui/lab": "^7.0.1-beta.19",
+    "@mui/material": "^7.3.5",
+    "@mui/x-date-pickers": "^8.19.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
     "next": "16.0.8",
     "react": "19.2.1",
     "react-dom": "19.2.1",

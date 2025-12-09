@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 30,
+      "noLeadingTrailingSpaces": true,
+      "alphanumericSpaces": true,
+      "description": "Name must be 3-30 characters"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "minLength": 5,
+      "maxLength": 30,
+      "noLeadingTrailingSpaces": true,
+      "description": "Valid email address required"
+    },
+    "DateofBirth": {
+      "type": "string",
+      "format": "date",
+      "minAge": 18,
+      "notFutureDate": true,
+      "description": "You must be at least 18 years old"
+    },
+    "gender": {
+      "type": "string",
+      "enum": ["Male", "Female", "Other"],
+      "description": "Select your gender"
+    },
+    "isAgreed": {
+      "type": "boolean",
+      "const": true,
+      "description": "You must agree to the terms and conditions"
+    }
+  },
+  "required": ["name", "email", "DateofBirth", "gender", "isAgreed"]
+}
